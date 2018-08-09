@@ -1,0 +1,228 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+/* Navigation Bar */
+nav.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+nav.navbar .fa {
+    color: rgba(0,0,0,0.7);
+}
+nav.navbar button:focus {
+    outline: none;
+}
+nav.navbar .navbar-toggler.collapsed .fa-times {
+    display: none;
+}
+nav.navbar .navbar-toggler:not(.collapsed) .fa-bars {
+    display: none;
+}
+.navbar-collapse .navbar-nav {
+    background: rgba(0,0,0,0.7);
+    color: #fff;
+    float: right;
+    padding: 0.2rem 1.6rem;
+    border-radius: 0.3rem;
+}
+.navbar-collapse .navbar-nav a {
+    color: inherit;
+}
+/* Navigation Bar / */
+
+
+/* Attaching all images to a single rule for Parallax effect */
+#introductionImage,
+.kentuckyImage,
+.pennStateImage,
+.Economics,
+.projectsImage,
+#Projects,
+#HangmanGame,
+#Giphy,
+.GiphyImages,
+#Truva,
+#myResume {
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* opacity: .7; */
+}
+/*^^ Add all images later on ^^ */
+
+
+/* Picture of Me */
+.Me {
+    border-radius: 100%;
+    border: 3px solid white;
+    width: 225px;
+    height: 225px;
+    margin-top: 50px;
+    
+}
+/* Picture of Me */
+
+
+/* Background Cover Image */
+#introductionImage {
+    background-image: url('../../images/Background.jpeg');
+    position: relative;
+    min-height: 100%;
+}
+/* Background Cover Image */
+
+
+
+/* My Current Education Section */
+.PennStateToKentucky {
+    background-size: cover;
+    background: #383838;
+    min-height: 100%;
+    color: white;
+}
+
+.kentuckyImage {
+    height: 275px;
+    width: 275px;
+    border-radius: 100%;
+    border: 5px solid blue;
+    position: relative;
+    vertical-align: middle;
+}
+
+.kentuckyImage:hover {
+    cursor: pointer;
+    transition: 1s;
+    width: 350px;
+    height: 350px;
+}
+
+.pennStateImage {
+    height: 275px;
+    width: 275px;
+    border-radius: 100%;
+    border: 5px solid navy;
+    vertical-align: middle;
+    position: relative;
+}
+
+.pennStateImage:hover {
+    cursor: pointer;
+    transition: 1s;
+    width: 350px;
+    height: 350px
+}
+/* My Current Education Section */
+
+
+
+/* My Current Education Content */
+.kentuckyCaption {
+    font-size: 15px;
+    color: #999;
+}
+
+.pennStateCaption {
+    font-size: 15px;
+    color: #999;
+}
+/* My Current Education Content / */
+
+
+/* My Major Section  */
+.Economics {
+    background-image: url('/images/Stocks.jpeg');
+    height: 60%;
+    
+}
+
+.economicsInfo {
+    padding-top: 150px;
+    color: white;
+    font-size: 30px;
+}
+/* My Major Section / */
+
+
+
+
+.projectsImage {
+    background-image: url('../../images/struggles.jpeg');
+    min-height: 60%;
+}
+
+.projectsInfo {
+    padding-top: 100px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 0px;
+}
+
+#Projects {
+    background-size: cover;
+    background: #383838;
+    min-height: 100%;
+    color: white;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#Truva {
+    padding-top: 10px;
+    border-radius: 100%;
+    height: 300px;
+    width: 300px;
+}
+
+#Truva:hover {
+    cursor: pointer;
+    transition: 1s;
+    width: 350px;
+    height: 350px
+}
+
+#HangmanGame {
+    padding-top: 10px;
+    border-radius: 100%;
+    height: 275px;
+    width: 275px;
+}
+
+#HangmanGame:hover {
+    cursor: pointer;
+    transition: 1s;
+    width: 350px;
+    height: 350px
+}
+
+#Giphy {
+    display: inline-block;
+}
+
+.GiphyImages:hover {
+    cursor: pointer; 
+}
+
+#myResume {
+    background-image: url('/images/Espana.jpeg');
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+
+
+
+
