@@ -1,3 +1,5 @@
+// To append Kyrie Irving Gif
+
 var xhr = $.get("https://api.giphy.com/v1/gifs/search?q=uncle+drew+pepsi&api_key=dc6zaTOxFJmzC&limit=1");
 xhr.done(function(response) {
     console.log("success got data", response);

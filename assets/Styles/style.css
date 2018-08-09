@@ -43,6 +43,7 @@ nav.navbar .navbar-toggler:not(.collapsed) .fa-bars {
 
 /* Attaching all images to a single rule for Parallax effect */
 #introductionImage,
+#Education,
 .kentuckyImage,
 .pennStateImage,
 .Economics,
@@ -52,15 +53,16 @@ nav.navbar .navbar-toggler:not(.collapsed) .fa-bars {
 #Giphy,
 .GiphyImages,
 #Truva,
-#myResume {
+#MoreAboutMe,
+#KingsLogo,
+#Resume {
     position: relative;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* opacity: .7; */
 }
-/*^^ Add all images later on ^^ */
+/* Attaching all images to a single rule for Parallax effect / */
 
 
 /* Picture of Me */
@@ -72,7 +74,7 @@ nav.navbar .navbar-toggler:not(.collapsed) .fa-bars {
     margin-top: 50px;
     
 }
-/* Picture of Me */
+/* Picture of Me / */
 
 
 /* Background Cover Image */
@@ -81,7 +83,7 @@ nav.navbar .navbar-toggler:not(.collapsed) .fa-bars {
     position: relative;
     min-height: 100%;
 }
-/* Background Cover Image */
+/* Background Cover Image / */
 
 
 
@@ -157,7 +159,7 @@ nav.navbar .navbar-toggler:not(.collapsed) .fa-bars {
 
 
 
-
+/* My Projects Section */
 .projectsImage {
     background-image: url('../../images/struggles.jpeg');
     min-height: 60%;
@@ -214,12 +216,62 @@ nav.navbar .navbar-toggler:not(.collapsed) .fa-bars {
 .GiphyImages:hover {
     cursor: pointer; 
 }
+/* My Projects Section / */
 
-#myResume {
+
+/* More about me section */
+
+#MoreAboutMe {
+    background-image: url(/images/MoreAboutMe.jpeg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 25px;
+}
+
+.MoreAboutMeContent {
+    color:white;
+    font-size: 25px;
+    padding-top: 100px;
+    margin: 0 30px;
+    position: relative;
+}
+
+#KingsLogo {
+    border-radius: 100%;
+    border: 5px solid white;
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+}
+
+#KingsLogo:hover {
+    border-radius: 100%;
+    border: 5px solid white;
+    cursor: pointer;
+    transition: 1s;
+    width: 350px;
+    height: 350px
+}
+
+/* More about me section / */
+
+
+
+
+
+
+
+/* My Resume Section */
+#Resume {
     background-image: url('/images/Espana.jpeg');
+    background-size: cover;
     min-width: 100%;
     min-height: 100%;
+    margin-top:0;
+    padding-top:0;
 }
+/* My Resume Section / */
 
 
 
