@@ -219,6 +219,8 @@ nav.navbar .navbar-toggler:not(.collapsed) .fa-bars {
 /* My Projects Section / */
 
 
+
+
 /* More about me section */
 
 #MoreAboutMe {
@@ -252,6 +254,11 @@ nav.navbar .navbar-toggler:not(.collapsed) .fa-bars {
     transition: 1s;
     width: 350px;
     height: 350px
+}
+
+#kingsGif {
+    margin-top: 75px;
+    margin-bottom: 50px;
 }
 
 /* More about me section / */
