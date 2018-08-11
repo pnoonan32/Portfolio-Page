@@ -145,7 +145,7 @@ nav.navbar .navbar-toggler:not(.collapsed) .fa-bars {
 
 /* My Major Section  */
 .Economics {
-    background-image: url('/images/Stocks.jpeg');
+    background-image: url('../../images/Stocks.jpeg');
     height: 60%;
     
 }
@@ -222,7 +222,7 @@ nav.navbar .navbar-toggler:not(.collapsed) .fa-bars {
 /* More about me section */
 
 #MoreAboutMe {
-    background-image: url(/images/MoreAboutMe.jpeg);
+    background-image: url('../../images/MoreAboutMe.jpeg');
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -264,7 +264,7 @@ nav.navbar .navbar-toggler:not(.collapsed) .fa-bars {
 
 /* My Resume Section */
 #Resume {
-    background-image: url('/images/Espana.jpeg');
+    background-image: url('../../images/Espana.jpeg');
     background-size: cover;
     min-width: 100%;
     min-height: 100%;
